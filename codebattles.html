@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="nl" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="CodeBattles: een platform voor real-time coding-duels, met Brighton George als full-stack developer." />
+  <meta name="author" content="Kerbusch Brighton George" />
+  <meta name="keywords" content="Brighton George, portfolio, programmeren, Thomas More, webdevelopment, elektronica" />
+  <meta name="theme-color" content="#100443" />
+  <meta property="og:title" content="CodeBattles | Brighton George" />
+  <meta property="og:description" content="CodeBattles: een platform voor real-time coding-duels, met Brighton George als full-stack developer." />
+  <meta property="og:type" content="website" />
+  <title>CodeBattles | Brighton George</title>
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="vendor/bootstrap-icons/bootstrap-icons.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg site-nav sticky-top" aria-label="Hoofdmenu">
+    <div class="container">
+      <a class="navbar-brand display-name fs-3" href="index.html">Brighton George</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+        aria-controls="mainNav" aria-expanded="false" aria-label="Menu openen">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+        <ul class="navbar-nav gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="ervaring.html">Ervaring</a></li>
+          <li class="nav-item"><a class="nav-link" href="hobbies.html">Hobby's</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="container pt-5 pb-4">
+    <div class="row align-items-center g-4 text-center text-md-start">
+      <div class="col-md-3 text-center">
+        <img src="images/codebattles_logo.png" alt="CodeBattles logo" class="project-logo shadow" width="160" height="160" />
+      </div>
+      <div class="col-md-9">
+        <h1 class="display-3 mb-1">CodeBattles</h1>
+        <p class="lead text-body-secondary mb-3">Code. Battle. Conquer. Een platform voor real-time coding-duels.</p>
+        <div class="d-flex flex-wrap gap-2 justify-content-center justify-content-md-start">
+          <span class="badge tech-badge">Webapp</span>
+          <span class="badge tech-badge">Teamproject</span>
+          <span class="badge tech-badge">Full-stack</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container pb-5">
+    <section class="mb-5">
+      <div class="card p-4">
+        <h2>Over het project</h2>
+        <p>CodeBattles is een competitief leerplatform waar studenten en developers hun programmeervaardigheden
+          aanscherpen door live tegen elkaar te coderen. Twee spelers krijgen dezelfde opgave, en wie als eerste alle
+          testcases laat slagen, wint de battle.</p>
+        <p class="mb-0">Het platform is gemaakt voor de klas: leerkrachten kunnen klassen beheren en de voortgang van
+          hun studenten opvolgen. Ik werkte mee aan het project als full-stack developer in een team van vier.</p>
+      </div>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="mb-3">Functies</h2>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="col">
+          <div class="card h-100 p-4">
+            <i class="bi bi-lightning-charge fs-2 mb-2 accent-icon"></i>
+            <h3 class="h5">Real-time battles</h3>
+            <p class="mb-0 text-body-secondary">Speel live coding-duels tegen een tegenstander. Wie als eerste alle tests doorstaat, wint.</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 p-4">
+            <i class="bi bi-check2-square fs-2 mb-2 accent-icon"></i>
+            <h3 class="h5">Test-gedreven</h3>
+            <p class="mb-0 text-body-secondary">Je wint door alle testcases te laten slagen. Code wordt veilig uitgevoerd via Judge0.</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 p-4">
+            <i class="bi bi-trophy fs-2 mb-2 accent-icon"></i>
+            <h3 class="h5">Globale ranglijst</h3>
+            <p class="mb-0 text-body-secondary">Verdien 10 punten per overwinning en klim live in de wereldwijde ranking.</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 p-4">
+            <i class="bi bi-code-square fs-2 mb-2 accent-icon"></i>
+            <h3 class="h5">Code-editor</h3>
+            <p class="mb-0 text-body-secondary">De Monaco-editor, dezelfde editor als in VS Code, rechtstreeks in de browser.</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 p-4">
+            <i class="bi bi-bullseye fs-2 mb-2 accent-icon"></i>
+            <h3 class="h5">Oefenmodus</h3>
+            <p class="mb-0 text-body-secondary">Oefen opgaven op je eigen tempo zonder tegenstander.</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 p-4">
+            <i class="bi bi-mortarboard fs-2 mb-2 accent-icon"></i>
+            <h3 class="h5">Leerkrachten</h3>
+            <p class="mb-0 text-body-secondary">Leerkrachten beheren klassen, maken opgaven en volgen de voortgang van hun studenten.</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 p-4">
+            <i class="bi bi-translate fs-2 mb-2 accent-icon"></i>
+            <h3 class="h5">5 talen</h3>
+            <p class="mb-0 text-body-secondary">Volledig vertaald in het Nederlands, Engels, Duits, Frans en Chinees.</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 p-4">
+            <i class="bi bi-shield-lock fs-2 mb-2 accent-icon"></i>
+            <h3 class="h5">Accounts & beveiliging</h3>
+            <p class="mb-0 text-body-secondary">Registratie met e-mailverificatie, rollen voor studenten en leerkrachten en een adminpaneel.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="mb-3">Hoe het werkt</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 p-4">
+            <span class="step-nr mb-3">1</span>
+            <h3 class="h5">Registreren</h3>
+            <p class="mb-0 text-body-secondary">Maak gratis een account aan in enkele seconden.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 p-4">
+            <span class="step-nr mb-3">2</span>
+            <h3 class="h5">Battle aangaan</h3>
+            <p class="mb-0 text-body-secondary">Kies een duel en schrijf je oplossing in de editor.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 p-4">
+            <span class="step-nr mb-3">3</span>
+            <h3 class="h5">Punten verdienen</h3>
+            <p class="mb-0 text-body-secondary">Laat als eerste alle tests slagen en verdien 10 punten.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-5">
+      <div class="card p-4">
+        <h2 class="mb-3">Technologieën</h2>
+        <div class="d-flex flex-wrap gap-2">
+          <span class="badge tech-badge">Next.js 16</span>
+          <span class="badge tech-badge">React 19</span>
+          <span class="badge tech-badge">TypeScript</span>
+          <span class="badge tech-badge">Tailwind CSS 4</span>
+          <span class="badge tech-badge">shadcn/ui</span>
+          <span class="badge tech-badge">Better Auth</span>
+          <span class="badge tech-badge">MySQL</span>
+          <span class="badge tech-badge">Redis</span>
+          <span class="badge tech-badge">Judge0</span>
+          <span class="badge tech-badge">Monaco Editor</span>
+          <span class="badge tech-badge">next-intl</span>
+          <span class="badge tech-badge">Framer Motion</span>
+          <span class="badge tech-badge">Recharts</span>
+          <span class="badge tech-badge">Nodemailer</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="mb-3">Het team</h2>
+      <div class="row g-4">
+        <div class="col-6 col-md-3">
+          <div class="card h-100 p-4 text-center">
+            <span class="avatar mx-auto mb-3">VI</span>
+            <h3 class="h6 mb-0">Vitex</h3>
+            <p class="small text-body-secondary mb-0">Lead Developer</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card h-100 p-4 text-center">
+            <span class="avatar mx-auto mb-3">SE</span>
+            <h3 class="h6 mb-0">Senne</h3>
+            <p class="small text-body-secondary mb-0">Backend Developer</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card h-100 p-4 text-center">
+            <span class="avatar mx-auto mb-3">DR</span>
+            <h3 class="h6 mb-0">Dries</h3>
+            <p class="small text-body-secondary mb-0">Frontend Developer</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card h-100 p-4 text-center border-primary">
+            <span class="avatar mx-auto mb-3">BR</span>
+            <h3 class="h6 mb-0">Brighton</h3>
+            <p class="small text-body-secondary mb-0">Full-stack Developer</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <a href="ervaring.html" class="btn btn-outline-light"><i class="bi bi-arrow-left me-2"></i>Terug naar ervaring</a>
+  </main>
+
+  <footer class="site-footer pt-5 pb-4 mt-auto">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-5">
+          <p class="display-name fs-3 mb-2">Brighton George</p>
+          <p class="text-body-secondary mb-0">Student Graduaat Programmeren aan Thomas More Geel. Gefascineerd door
+            software, elektronica en alles daartussen.</p>
+        </div>
+        <div class="col-6 col-md-3">
+          <h2 class="h6 text-uppercase footer-title">Pagina's</h2>
+          <ul class="list-unstyled footer-links mb-0">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="ervaring.html">Ervaring</a></li>
+            <li><a href="hobbies.html">Hobby's</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-4">
+          <h2 class="h6 text-uppercase footer-title">Volg mij</h2>
+          <div class="d-flex gap-3 social-icons">
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="mailto:brighton-george@outlook.com" aria-label="E-mail"><i class="bi bi-envelope-fill"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr class="my-4" />
+      <p class="small text-body-secondary text-center mb-0">&copy; <span id="year">2026</span> Kerbusch Brighton George. Alle rechten voorbehouden.</p>
+    </div>
+  </footer>
+
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

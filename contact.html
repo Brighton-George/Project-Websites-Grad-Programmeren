@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="nl" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Neem contact op met Brighton George via het contactformulier, e-mail of telefoon." />
+  <meta name="author" content="Kerbusch Brighton George" />
+  <meta name="keywords" content="Brighton George, portfolio, programmeren, Thomas More, webdevelopment, elektronica" />
+  <meta name="theme-color" content="#100443" />
+  <meta property="og:title" content="Contact | Brighton George" />
+  <meta property="og:description" content="Neem contact op met Brighton George via het contactformulier, e-mail of telefoon." />
+  <meta property="og:type" content="website" />
+  <title>Contact | Brighton George</title>
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="vendor/bootstrap-icons/bootstrap-icons.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg site-nav sticky-top" aria-label="Hoofdmenu">
+    <div class="container">
+      <a class="navbar-brand display-name fs-3" href="index.html">Brighton George</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+        aria-controls="mainNav" aria-expanded="false" aria-label="Menu openen">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+        <ul class="navbar-nav gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+          <li class="nav-item"><a class="nav-link" href="ervaring.html">Ervaring</a></li>
+          <li class="nav-item"><a class="nav-link" href="hobbies.html">Hobby's</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="container text-center pt-5 pb-3">
+    <h1 class="display-4">Contact</h1>
+    <p class="lead text-body-secondary">Vragen of interesse in samenwerking? Laat gerust iets weten.</p>
+  </header>
+
+  <main class="container pb-5">
+    <div class="row g-4">
+      <section class="col-lg-7" aria-labelledby="form-titel">
+        <div class="card p-4 h-100">
+          <h2 id="form-titel" class="h4 mb-3">Stuur een bericht</h2>
+          <form action="https://tm-statweb.be/forms.php" method="post" class="needs-validation" novalidate>
+            <div class="row g-3">
+              <div class="col-12">
+                <label for="naam" class="form-label">Naam en voornaam *</label>
+                <input type="text" class="form-control" id="naam" name="naam" placeholder="Bv. Peeters Jan"
+                  autocomplete="name" minlength="2" required />
+                <div class="invalid-feedback">Vul je naam en voornaam in.</div>
+              </div>
+              <div class="col-12">
+                <label for="email" class="form-label">E-mailadres *</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="naam@voorbeeld.be"
+                  autocomplete="email" required />
+                <div class="invalid-feedback">Vul een geldig e-mailadres in.</div>
+              </div>
+              <div class="col-12">
+                <label for="skill" class="form-label">Interesse in skill *</label>
+                <select class="form-select" id="skill" name="skill" required>
+                  <option value="" selected disabled>Kies een skill...</option>
+                  <option value="html-css">HTML &amp; CSS</option>
+                  <option value="javascript">JavaScript</option>
+                  <option value="bootstrap">Bootstrap</option>
+                  <option value="java">Java</option>
+                  <option value="mysql">MySQL / databases</option>
+                  <option value="react">React</option>
+                  <option value="elektronica">Elektronica</option>
+                </select>
+                <div class="invalid-feedback">Kies een skill.</div>
+              </div>
+              <div class="col-12">
+                <label for="vraag" class="form-label">Vraag *</label>
+                <textarea class="form-control" id="vraag" name="vraag" rows="6" placeholder="Typ hier je vraag..."
+                  minlength="10" required></textarea>
+                <div class="invalid-feedback">Je vraag moet minstens 10 tekens bevatten.</div>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-accent"><i class="bi bi-send me-2"></i>Verzenden</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <aside class="col-lg-5 d-flex flex-column gap-4">
+        <section class="card p-4" aria-labelledby="geg-titel">
+          <h2 id="geg-titel" class="h4 mb-3">Gegevens</h2>
+          <ul class="list-unstyled contact-list mb-0">
+            <li><i class="bi bi-person"></i><div><span class="small text-body-secondary d-block">Naam</span>Kerbusch Brighton George</div></li>
+            <li><i class="bi bi-mortarboard"></i><div><span class="small text-body-secondary d-block">Studierichting</span>Graduaat Programmeren, Thomas More Geel</div></li>
+            <li><i class="bi bi-geo-alt"></i><div><span class="small text-body-secondary d-block">Woonplaats</span>Westmeerbeek (Hulshout), België</div></li>
+            <li><i class="bi bi-envelope"></i><div><span class="small text-body-secondary d-block">E-mail</span><a href="mailto:brighton-george@outlook.com" class="link-light text-decoration-none">brighton-george@outlook.com</a></div></li>
+            <li><i class="bi bi-telephone"></i><div><span class="small text-body-secondary d-block">Telefoon</span><a href="tel:+32469685974" class="link-light text-decoration-none">+32 469 68 59 74</a></div></li>
+          </ul>
+        </section>
+        <section class="card p-4" aria-labelledby="soc-titel">
+          <h2 id="soc-titel" class="h4 mb-3">Socials</h2>
+          <div class="d-grid gap-2">
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener" class="btn btn-outline-light text-start"><i class="bi bi-linkedin me-2"></i>LinkedIn</a>
+            <a href="https://github.com/" target="_blank" rel="noopener" class="btn btn-outline-light text-start"><i class="bi bi-github me-2"></i>GitHub</a>
+          </div>
+        </section>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer pt-5 pb-4 mt-auto">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-5">
+          <p class="display-name fs-3 mb-2">Brighton George</p>
+          <p class="text-body-secondary mb-0">Student Graduaat Programmeren aan Thomas More Geel. Gefascineerd door
+            software, elektronica en alles daartussen.</p>
+        </div>
+        <div class="col-6 col-md-3">
+          <h2 class="h6 text-uppercase footer-title">Pagina's</h2>
+          <ul class="list-unstyled footer-links mb-0">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="ervaring.html">Ervaring</a></li>
+            <li><a href="hobbies.html">Hobby's</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-4">
+          <h2 class="h6 text-uppercase footer-title">Volg mij</h2>
+          <div class="d-flex gap-3 social-icons">
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="mailto:brighton-george@outlook.com" aria-label="E-mail"><i class="bi bi-envelope-fill"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr class="my-4" />
+      <p class="small text-body-secondary text-center mb-0">&copy; <span id="year">2026</span> Kerbusch Brighton George. Alle rechten voorbehouden.</p>
+    </div>
+  </footer>
+
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="nl" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio van Brighton George, student Graduaat Programmeren aan Thomas More Geel." />
+  <meta name="author" content="Kerbusch Brighton George" />
+  <meta name="keywords" content="Brighton George, portfolio, programmeren, Thomas More, webdevelopment, elektronica" />
+  <meta name="theme-color" content="#100443" />
+  <meta property="og:title" content="Home | Brighton George" />
+  <meta property="og:description" content="Portfolio van Brighton George, student Graduaat Programmeren aan Thomas More Geel." />
+  <meta property="og:type" content="website" />
+  <title>Home | Brighton George</title>
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="vendor/bootstrap-icons/bootstrap-icons.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg site-nav sticky-top" aria-label="Hoofdmenu">
+    <div class="container">
+      <a class="navbar-brand display-name fs-3" href="index.html">Brighton George</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+        aria-controls="mainNav" aria-expanded="false" aria-label="Menu openen">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+        <ul class="navbar-nav gap-lg-2">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+          <li class="nav-item"><a class="nav-link" href="ervaring.html">Ervaring</a></li>
+          <li class="nav-item"><a class="nav-link" href="hobbies.html">Hobby's</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container py-5">
+      <div class="row align-items-center g-4 g-lg-5 py-lg-5">
+        <div class="col-lg-7 text-center text-lg-start order-2 order-lg-1">
+          <p class="hero-label mb-2">Welkom op mijn portfolio</p>
+          <h1 class="display-2 mb-3">Hallo, ik ben Brighton George</h1>
+          <p class="lead text-body-secondary mb-4">Student Graduaat Programmeren aan Thomas More Geel. Ik bouw graag
+            dingen, van websites en apps tot elektronische schakelingen.</p>
+          <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start">
+            <a href="contact.html" class="btn btn-accent btn-lg px-4"><i class="bi bi-chat-dots me-2"></i>Neem contact op</a>
+            <a href="cv.html" class="btn btn-outline-light btn-lg px-4">Bekijk mijn CV</a>
+          </div>
+        </div>
+        <div class="col-lg-5 text-center order-1 order-lg-2">
+          <img src="images/profiel.jpg" alt="Profielfoto van Brighton George" class="hero-img rounded-circle shadow-lg" width="300" height="300" />
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container py-5">
+    <section aria-labelledby="ontdek-titel">
+      <h2 id="ontdek-titel" class="text-center mb-4">Ontdek meer</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <a href="cv.html" class="card-img-link" aria-label="Naar Curriculum Vitae">
+              <img src="images/webdev.jpg" class="card-img-top" alt="Curriculum Vitae" loading="lazy" />
+            </a>
+            <div class="card-body d-flex flex-column">
+              <h2 class="h5 card-title">Curriculum Vitae</h2>
+              <p class="card-text text-body-secondary">Mijn opleiding, werkervaring, talenkennis en skills in één overzicht.</p>
+              <a href="cv.html" class="btn btn-outline-light mt-auto align-self-start">Bekijk <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <a href="ervaring.html" class="card-img-link" aria-label="Naar Ervaring">
+              <img src="images/programmeren.jpg" class="card-img-top" alt="Ervaring" loading="lazy" />
+            </a>
+            <div class="card-body d-flex flex-column">
+              <h2 class="h5 card-title">Ervaring</h2>
+              <p class="card-text text-body-secondary">Mijn studentenjobs en de projecten waaraan ik werkte, zoals Repdex AI en CodeBattles.</p>
+              <a href="ervaring.html" class="btn btn-outline-light mt-auto align-self-start">Bekijk <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <a href="hobbies.html" class="card-img-link" aria-label="Naar Hobby's & interesses">
+              <img src="images/elektronica.jpg" class="card-img-top" alt="Hobby's & interesses" loading="lazy" />
+            </a>
+            <div class="card-body d-flex flex-column">
+              <h2 class="h5 card-title">Hobby's & interesses</h2>
+              <p class="card-text text-body-secondary">Van elektronica en programmeren tot AI en gamedevelopment.</p>
+              <a href="hobbies.html" class="btn btn-outline-light mt-auto align-self-start">Bekijk <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer pt-5 pb-4 mt-auto">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-5">
+          <p class="display-name fs-3 mb-2">Brighton George</p>
+          <p class="text-body-secondary mb-0">Student Graduaat Programmeren aan Thomas More Geel. Gefascineerd door
+            software, elektronica en alles daartussen.</p>
+        </div>
+        <div class="col-6 col-md-3">
+          <h2 class="h6 text-uppercase footer-title">Pagina's</h2>
+          <ul class="list-unstyled footer-links mb-0">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="ervaring.html">Ervaring</a></li>
+            <li><a href="hobbies.html">Hobby's</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-4">
+          <h2 class="h6 text-uppercase footer-title">Volg mij</h2>
+          <div class="d-flex gap-3 social-icons">
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="mailto:brighton-george@outlook.com" aria-label="E-mail"><i class="bi bi-envelope-fill"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr class="my-4" />
+      <p class="small text-body-secondary text-center mb-0">&copy; <span id="year">2026</span> Kerbusch Brighton George. Alle rechten voorbehouden.</p>
+    </div>
+  </footer>
+
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

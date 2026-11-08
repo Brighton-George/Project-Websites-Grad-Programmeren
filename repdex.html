@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="nl" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Repdex AI: een AI-fitnessapp van Soladex Dev, ontwikkeld door Brighton George." />
+  <meta name="author" content="Kerbusch Brighton George" />
+  <meta name="keywords" content="Brighton George, portfolio, programmeren, Thomas More, webdevelopment, elektronica" />
+  <meta name="theme-color" content="#100443" />
+  <meta property="og:title" content="Repdex AI | Brighton George" />
+  <meta property="og:description" content="Repdex AI: een AI-fitnessapp van Soladex Dev, ontwikkeld door Brighton George." />
+  <meta property="og:type" content="website" />
+  <title>Repdex AI | Brighton George</title>
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="vendor/bootstrap-icons/bootstrap-icons.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg site-nav sticky-top" aria-label="Hoofdmenu">
+    <div class="container">
+      <a class="navbar-brand display-name fs-3" href="index.html">Brighton George</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+        aria-controls="mainNav" aria-expanded="false" aria-label="Menu openen">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+        <ul class="navbar-nav gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="ervaring.html">Ervaring</a></li>
+          <li class="nav-item"><a class="nav-link" href="hobbies.html">Hobby's</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="container pt-5 pb-4">
+    <div class="row align-items-center g-4 text-center text-md-start">
+      <div class="col-md-3 text-center">
+        <img src="images/repdex_logo.png" alt="Repdex AI logo" class="project-logo shadow" width="160" height="160" />
+      </div>
+      <div class="col-md-9">
+        <h1 class="display-3 mb-1">Repdex AI</h1>
+        <p class="lead text-body-secondary mb-3">AI-fitnesstracker voor iOS en Android</p>
+        <div class="d-flex flex-wrap gap-2 justify-content-center justify-content-md-start">
+          <span class="badge tech-badge">Soladex Dev</span>
+          <span class="badge tech-badge">Mobiele app</span>
+          <span class="badge tech-badge">On-device AI</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container pb-5">
+    <section class="mb-5">
+      <div class="card p-4">
+        <h2>Over het project</h2>
+        <p>Repdex AI is een fitness-app die ik onder mijn eigen merk Soladex Dev ontwikkel. De app combineert een
+          klassieke workout-tracker met kunstmatige intelligentie: je camera herkent gymtoestellen, telt je herhalingen
+          en een AI-coach helpt je met je schema.</p>
+        <p class="mb-0">Het meeste AI-werk draait rechtstreeks op je telefoon, zodat het snel werkt en je gegevens privé
+          blijven.</p>
+      </div>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="mb-3">Functies</h2>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="col">
+          <div class="card h-100 p-4">
+            <i class="bi bi-camera fs-2 mb-2 accent-icon"></i>
+            <h3 class="h5">AI-toestelscan</h3>
+            <p class="mb-0 text-body-secondary">Richt je camera op een toestel. Een eigen TFLite-model herkent 13 gymtoestellen en stelt passende oefeningen voor, volledig op het toestel zelf.</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 p-4">
+            <i class="bi bi-person-arms-up fs-2 mb-2 accent-icon"></i>
+            <h3 class="h5">Automatische rep counter</h3>
+            <p class="mb-0 text-body-secondary">MoveNet Thunder volgt je gewrichten via de camera en telt je herhalingen, met filters tegen valse tellingen.</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 p-4">
+            <i class="bi bi-chat-dots fs-2 mb-2 accent-icon"></i>
+            <h3 class="h5">AI Coach</h3>
+            <p class="mb-0 text-body-secondary">Een persoonlijke coach via de Groq API, die je trainingsgeschiedenis en doelen meekrijgt als context.</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 p-4">
+            <i class="bi bi-graph-up-arrow fs-2 mb-2 accent-icon"></i>
+            <h3 class="h5">Progressive overload</h3>
+            <p class="mb-0 text-body-secondary">Stelt gewichten voor en detecteert plateaus en wanneer een deload nodig is.</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 p-4">
+            <i class="bi bi-fire fs-2 mb-2 accent-icon"></i>
+            <h3 class="h5">Spierherstel-heatmap</h3>
+            <p class="mb-0 text-body-secondary">Toont per spiergroep hoe hersteld je bent na je trainingen.</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 p-4">
+            <i class="bi bi-book fs-2 mb-2 accent-icon"></i>
+            <h3 class="h5">406 oefeningen</h3>
+            <p class="mb-0 text-body-secondary">Een volledige oefeningenbibliotheek met demo's, zoekfunctie en spiergroepen.</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 p-4">
+            <i class="bi bi-calculator fs-2 mb-2 accent-icon"></i>
+            <h3 class="h5">Calculators</h3>
+            <p class="mb-0 text-body-secondary">Plate-, 1RM-, BMI-, macro- en calorieplanner, VO₂ max en strength standards.</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 p-4">
+            <i class="bi bi-cloud-check fs-2 mb-2 accent-icon"></i>
+            <h3 class="h5">Sync & back-up</h3>
+            <p class="mb-0 text-body-secondary">Cloud-sync tussen toestellen via Supabase, lokale back-ups en export naar CSV.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-5">
+      <div class="card p-4">
+        <h2 class="mb-3">Technologieën</h2>
+        <div class="d-flex flex-wrap gap-2">
+          <span class="badge tech-badge">React Native 0.81</span>
+          <span class="badge tech-badge">Expo 54</span>
+          <span class="badge tech-badge">React 19</span>
+          <span class="badge tech-badge">JavaScript</span>
+          <span class="badge tech-badge">TensorFlow Lite</span>
+          <span class="badge tech-badge">TensorFlow.js</span>
+          <span class="badge tech-badge">MoveNet</span>
+          <span class="badge tech-badge">EfficientNet Lite</span>
+          <span class="badge tech-badge">Supabase</span>
+          <span class="badge tech-badge">SQLite</span>
+          <span class="badge tech-badge">Groq API</span>
+          <span class="badge tech-badge">i18next</span>
+          <span class="badge tech-badge">EAS Build</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="mb-3">Gratis &amp; Premium</h2>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="card p-4 h-100">
+            <h3 class="h5 mb-3">Gratis</h3>
+            <ul class="list-unstyled mb-0">
+              <li class="mb-2"><i class="bi bi-check2 me-2 accent-icon"></i>Volledige oefeningenbibliotheek</li>
+              <li class="mb-2"><i class="bi bi-check2 me-2 accent-icon"></i>Plate-, 1RM- en BMI-calculator</li>
+              <li class="mb-2"><i class="bi bi-check2 me-2 accent-icon"></i>Rusttimer</li>
+              <li class="mb-2"><i class="bi bi-check2 me-2 accent-icon"></i>Warm-up set planner</li>
+              <li class="mb-2"><i class="bi bi-check2 me-2 accent-icon"></i>PR-bord</li>
+              <li class="mb-2"><i class="bi bi-check2 me-2 accent-icon"></i>Basis workoutgeschiedenis</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card p-4 h-100 border-primary">
+            <h3 class="h5 mb-3">Premium <i class="bi bi-star-fill ms-1 accent-icon"></i></h3>
+            <ul class="list-unstyled mb-0">
+              <li class="mb-2"><i class="bi bi-check2 me-2 accent-icon"></i>Onbeperkte AI-toestelscans</li>
+              <li class="mb-2"><i class="bi bi-check2 me-2 accent-icon"></i>Progressive Overload AI</li>
+              <li class="mb-2"><i class="bi bi-check2 me-2 accent-icon"></i>Spierherstel-heatmap</li>
+              <li class="mb-2"><i class="bi bi-check2 me-2 accent-icon"></i>AI weekprogramma-generator</li>
+              <li class="mb-2"><i class="bi bi-check2 me-2 accent-icon"></i>Cloud-sync tussen toestellen</li>
+              <li class="mb-2"><i class="bi bi-check2 me-2 accent-icon"></i>Geavanceerde grafieken en CSV-export</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <a href="ervaring.html" class="btn btn-outline-light"><i class="bi bi-arrow-left me-2"></i>Terug naar ervaring</a>
+  </main>
+
+  <footer class="site-footer pt-5 pb-4 mt-auto">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-5">
+          <p class="display-name fs-3 mb-2">Brighton George</p>
+          <p class="text-body-secondary mb-0">Student Graduaat Programmeren aan Thomas More Geel. Gefascineerd door
+            software, elektronica en alles daartussen.</p>
+        </div>
+        <div class="col-6 col-md-3">
+          <h2 class="h6 text-uppercase footer-title">Pagina's</h2>
+          <ul class="list-unstyled footer-links mb-0">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="ervaring.html">Ervaring</a></li>
+            <li><a href="hobbies.html">Hobby's</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-4">
+          <h2 class="h6 text-uppercase footer-title">Volg mij</h2>
+          <div class="d-flex gap-3 social-icons">
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="mailto:brighton-george@outlook.com" aria-label="E-mail"><i class="bi bi-envelope-fill"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr class="my-4" />
+      <p class="small text-body-secondary text-center mb-0">&copy; <span id="year">2026</span> Kerbusch Brighton George. Alle rechten voorbehouden.</p>
+    </div>
+  </footer>
+
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

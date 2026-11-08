@@ -1,0 +1,11 @@
+.claude/
+CLAUDE.md
+*.claude*
+.DS_Store
+Thumbs.db
+desktop.ini
+/favicon.svg
+/style.css
+/images/images hobbies/
+/images/images index/
+/images/images werkervaring/
